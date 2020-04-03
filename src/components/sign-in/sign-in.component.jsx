@@ -56,6 +56,7 @@ class SignIn extends React.Component {
             name='password'
             type='password'
             label='password'
+            autoComplete='password'
             value={this.state.password}
             handleChange={this.handleChange}
             required
